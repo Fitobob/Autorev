@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+  width: 420px;
+  height: 450px;
+  background: seagreen;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.body {
+font-family:"Poppins", sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: slateblue;
+
+
+}
